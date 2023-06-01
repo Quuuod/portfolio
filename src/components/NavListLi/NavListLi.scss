@@ -1,0 +1,23 @@
+.nav-list__link {
+  color: var(--nav-text);
+  transition: opacity 0.2s ease-in;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.nav-list__link--active {
+  position: relative;
+  &::before {
+    content: '';
+
+    position: absolute;
+    left: 0;
+    top: 100%;
+
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: var(--accent);
+  }
+}
