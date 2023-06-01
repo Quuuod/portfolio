@@ -1,0 +1,12 @@
+.content-list {
+  margin: 0 auto;
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  text-align: center;
+}
+.content-list a {
+  color: var(--accent);
+}/*# sourceMappingURL=ContentList.css.map */
