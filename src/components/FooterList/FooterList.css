@@ -3,11 +3,4 @@
   -moz-column-gap: 30px;
        column-gap: 30px;
   align-items: center;
-}
-
-.copyright {
-  font-size: 16px;
-}
-.copyright p + p {
-  margin-top: 0.5em;
 }/*# sourceMappingURL=FooterList.css.map */

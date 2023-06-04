@@ -11,3 +11,10 @@
   align-items: center;
   row-gap: 27px;
 }
+
+.copyright {
+  font-size: 16px;
+  & p {
+    margin-top: 0.5em;
+  }
+}

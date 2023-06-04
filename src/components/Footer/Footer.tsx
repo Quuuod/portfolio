@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer__wrapper">
           <div className="copyright">
             <FooterList />
-            <p>© 2022 frontend-dev.com</p>
+            <p>© 2023 frontend-dev.com</p>
           </div>
         </div>
       </div>
