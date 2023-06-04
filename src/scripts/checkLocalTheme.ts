@@ -1,4 +1,4 @@
-function checkLocalTheme(button: HTMLButtonElement) {
+function checkLocalTheme(button: HTMLButtonElement): void {
   if (localStorage.getItem('darkMode') === 'dark') {
     button.classList.add('dark-mode-btn--active');
     document.body.classList.add('dark');

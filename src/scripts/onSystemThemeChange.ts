@@ -1,4 +1,4 @@
-function onSystemThemeChange(button: HTMLButtonElement) {
+function onSystemThemeChange(button: HTMLButtonElement): void {
   window
     .matchMedia('(prefers-color-scheme: dark)')
     .addEventListener('change', (event) => {

@@ -1,4 +1,4 @@
-function checkSystemTheme(button: HTMLButtonElement) {
+function checkSystemTheme(button: HTMLButtonElement): void {
   if (
     window.matchMedia &&
     window.matchMedia('(prefers-color-scheme: dark)').matches

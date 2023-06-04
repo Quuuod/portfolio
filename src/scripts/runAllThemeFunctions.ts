@@ -2,7 +2,7 @@ import checkSystemTheme from './checkSystemTheme';
 import checkLocalTheme from './checkLocalTheme';
 import onSystemThemeChange from './onSystemThemeChange';
 
-function runAllThemeFunctions() {
+function runAllThemeFunctions(): void {
   const btnDarkMode = document.querySelector(
     '.dark-mode-btn'
   ) as HTMLButtonElement;

@@ -3,9 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from '../Nav/Nav';
 import Header from '../Header/Header';
-import HomePage from '../HomePage/HomePage';
 import Footer from '../Footer/Footer';
 import runAllThemeFunctions from '../../scripts/runAllThemeFunctions';
+
+import HomePage from '../HomePage/HomePage';
+import ProjectsPage from '../ProjectsPage/ProjectsPage';
 
 function App() {
   useEffect(() => runAllThemeFunctions());
@@ -18,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="*" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
           {/* <Route path="*" element={<SummaryPage/>} />
         <Route path="*" element={<SummaryPage/>} /> */}
         </Routes>
