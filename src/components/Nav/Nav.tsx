@@ -7,7 +7,7 @@ function Nav() {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <a href="./index.html" className="logo">
+          <a href="/" className="logo">
             <strong>Frontend developer</strong> portfolio
           </a>
           <Theme />

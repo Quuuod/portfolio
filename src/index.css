@@ -37,7 +37,7 @@ html,
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 
   font-family: 'DM Sans', sans-serif;
   letter-spacing: -0.5px;

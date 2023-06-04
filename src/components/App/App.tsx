@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from '../Nav/Nav';
 import Header from '../Header/Header';
-import Main from '../Main/Main';
+import HomePage from '../HomePage/HomePage';
 import Footer from '../Footer/Footer';
 import runAllThemeFunctions from '../../scripts/runAllThemeFunctions';
 
@@ -13,7 +14,14 @@ function App() {
     <div className="App">
       <Nav />
       <Header />
-      <Main />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
+          {/* <Route path="*" element={<SummaryPage/>} />
+        <Route path="*" element={<SummaryPage/>} /> */}
+        </Routes>
+      </BrowserRouter>
       <Footer />
     </div>
   );

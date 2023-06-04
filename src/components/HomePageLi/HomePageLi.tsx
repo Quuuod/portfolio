@@ -1,11 +1,11 @@
-import './MainLi.css';
+import './HomePageLi.css';
 
-interface IMainLi {
+interface IHomePageLi {
   title: string;
   text: string;
 }
 
-function MainLi({ title, text }: IMainLi) {
+function HomePageLi({ title, text }: IHomePageLi) {
   return (
     <>
       <li className="content-list__item">
@@ -16,4 +16,4 @@ function MainLi({ title, text }: IMainLi) {
   );
 }
 
-export default MainLi;
+export default HomePageLi;
