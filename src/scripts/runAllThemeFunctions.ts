@@ -13,7 +13,7 @@ function runAllThemeFunctions(): void {
 
   btnDarkMode.onclick = function () {
     btnDarkMode.classList.toggle('dark-mode-btn--active');
-    const isDark = document.body.classList.toggle('dark');
+    const isDark: boolean = document.body.classList.toggle('dark');
 
     if (isDark) {
       localStorage.setItem('darkMode', 'dark');
